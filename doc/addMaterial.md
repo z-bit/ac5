@@ -1,7 +1,5 @@
 # adding Material2 to webpack-starter
 
-**[back](../README.md)**
-
 This turned out to be really easy (so far!)
 * npm install @angular2-material/core
 * npm install @angular2-material/button (.. /card, /input)
@@ -16,5 +14,3 @@ This turned out to be really easy (so far!)
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;          ...<br>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      ]<br>
       &nbsp;&nbsp;&nbsp;&nbsp;  })<br>
-
-**[back](../README.md)**
