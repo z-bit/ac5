@@ -16,50 +16,28 @@ import { AppState } from './app.service';
     './app.style.css'
   ],
   template: `
-    <nav>
-      <span>
-        <a [routerLink]=" ['./'] ">
-          Index
-        </a>
-      </span>
-      |
-      <span>
-        <a [routerLink]=" ['./home'] ">
-          Home
-        </a>
-      </span>
-      |
-      <span>
-        <a [routerLink]=" ['./detail'] ">
-          Detail
-        </a>
-      </span>
-      |
-      <span>
-        <a [routerLink]=" ['./about'] ">
-          About
-        </a>
-      </span>
-    </nav>
+    <md-toolbar color="primary">
+      <span>ac5</span>
+      <span class="fill-space"></span>
+      <a md-button [routerLink]=" ['./'] "> Index </a>
+      <a md-button [routerLink]=" ['./home'] "> Home </a>
+      <a md-button [routerLink]=" ['./detail'] "> Detail </a>
+      <a md-button [routerLink]=" ['./about'] "> About </a>
+    </md-toolbar>
 
     <main>
       <router-outlet></router-outlet>
     </main>
 
-    <pre class="app-state">this.appState.state = {{ appState.state | json }}</pre>
-
     <footer>
+      <hr>
+      <pre class="app-state">this.appState.state = {{ appState.state | json }}</pre>
+      <hr>
       <span>WebPack Angular 2 Starter by <a [href]="url">@AngularClass</a></span>
-      <div>
-        <a [href]="url">
-          <img [src]="angularclassLogo" width="25%">
-        </a>
-      </div>
     </footer>
   `
 })
 export class App {
-  angularclassLogo = 'assets/img/angularclass-avatar.png';
   name = 'Angular 2 Webpack Starter';
   url = 'https://twitter.com/AngularClass';
 

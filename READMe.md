@@ -5,5 +5,11 @@ AngularClass webpack-starter, based on rc.5
 * [original README](doc/README.md)
 * suggested material2 branch was not up to date
 * so this one starts out with regular starter
-* remove /doc folder from .gitignore  
-* [and material 2 is added](doc/addMaterial.md)
+* **remove /doc folder from .gitignore**  
+* [add Material 2](doc/addMaterial.md)
+* [create MaterialModule to be added to each Module, instead of adding every single Md...Module](doc/addMaterialModule.md)
+* add Material Directives: route via Toolbars in ***app.component.ts***, this uses class="fill-space" which is defined in ***app.styles.css*** as
+    **span.fill-space {
+        flex: 1 1 auto;
+    }**
+* next

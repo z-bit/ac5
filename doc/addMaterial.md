@@ -1,8 +1,14 @@
 # adding Material2 to webpack-starter
 
+[back to README](../README.md)
+
 This turned out to be really easy (so far!)
+
 * npm install @angular2-material/core
+
 * npm install @angular2-material/button (.. /card, /input)
+
+* the point below is superseded by [creating a MaterialModule](addMaterialModule.md)
 
 * edit app/app.module.ts
     * insert an import line for each module like **import { MdButtonModule } from "@angular2-material/button";**    

@@ -26,6 +26,7 @@ import { XLarge } from './x-large';
   templateUrl: './home.template.html'
 })
 export class Home {
+  logo = 'assets/img/angularclass-avatar.png';
   // Set our default values
   localState = { value: '' };
   // TypeScript public modifiers
