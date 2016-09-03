@@ -12,4 +12,4 @@ AngularClass webpack-starter, based on rc.5
     **span.fill-space {
         flex: 1 1 auto;
     }**
-* next
+* **todo** Each new layer of Sub-Modules takes header space: **sidenav** as top navigation.

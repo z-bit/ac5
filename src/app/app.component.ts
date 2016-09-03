@@ -19,6 +19,7 @@ import { AppState } from './app.service';
     <md-toolbar color="primary">
       <span>ac5</span>
       <span class="fill-space"></span>
+      <a md-button [routerLink]=" ['./module1'] "> Module1 </a>
       <a md-button [routerLink]=" ['./'] "> Index </a>
       <a md-button [routerLink]=" ['./home'] "> Home </a>
       <a md-button [routerLink]=" ['./detail'] "> Detail </a>

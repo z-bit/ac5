@@ -5,7 +5,9 @@ import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 import { removeNgStyles, createNewHosts } from '@angularclass/hmr';
 
-import { MaterialModule } from './_modules';
+import { MaterialModule } from './_modules/material/material.module';
+import { Module1Module } from './_modules/module1/module1.module';
+
 
 /*
  * Platform and Environment providers/directives/pipes
@@ -42,7 +44,8 @@ const APP_PROVIDERS = [
     FormsModule,
     HttpModule,
     RouterModule.forRoot(ROUTES, { useHash: true }),
-    MaterialModule
+    MaterialModule,
+    Module1Module
   ],
   providers: [ // expose our Services and Providers into Angular's dependency injection
     ENV_PROVIDERS,
